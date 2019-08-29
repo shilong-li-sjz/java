@@ -21,16 +21,6 @@ public class TestServiceController {
     public void getHundredKDat(Integer kbCount,HttpServletResponse resp) throws IOException {
         resp.setHeader("Content-type", "text/html;charset=UTF-8");
         resp.setCharacterEncoding("UTF-8");
-        resp.getWriter().write(JSONObject.toJSONString(getKBCount(kbCount)));
-    }
-
-    public static String getKBCount(Integer kbCount) {
-        StringBuffer sb = new StringBuffer();
-        for (int j = 0; j < kbCount; j++) {
-            for (int i = 0; i < 1024; i++) {
-                sb.append("b");
-            }
-        }
-        return sb + "";
+        resp.getWriter().write(JSONObject.toJSONString("jenkins run successfully"));
     }
 }
