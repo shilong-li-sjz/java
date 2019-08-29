@@ -237,7 +237,7 @@
 
     </dependencies>
     <build>
-        <finalName>EnergyManServ_BackEnd</finalName>
+        <finalName>testService</finalName>
         <resources>
             <resource>
                 <directory>src/main/java</directory>
