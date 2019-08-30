@@ -5,7 +5,7 @@
     <groupId>com.web</groupId>
     <artifactId>testService</artifactId>
     <packaging>war</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>testService Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
@@ -237,7 +237,7 @@
 
     </dependencies>
     <build>
-        <finalName>testService</finalName>
+        <finalName>EnergyManServ_BackEnd</finalName>
         <resources>
             <resource>
                 <directory>src/main/java</directory>
