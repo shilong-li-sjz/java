@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
-	<artifactId>DatAnlsService</artifactId>
+	<artifactId>testDbConn</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>DatAnlsService Maven Webapp</name>
+	<name>testDbConn Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -242,7 +242,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>DatAnlsService</finalName>
+		<finalName>testDbConn</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/java</directory>
